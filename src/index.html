@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Ollie's Emojis</h1>
+        <div id="emojiContainer"></div>
+        <input type="text" id="emoji-input" placeholder="Type an emoji 🎉"/>
+
+        <div class="buttons-wrapper">
+            <button id="unshift-btn">Add to front</button>             
+            <button id="push-btn" onclick=addClick()>Add to end</button>             
+        </div>
+        <div class="buttons-wrapper">
+            <button id="shift-btn">Remove from front</button>             
+            <button id="pop-btn">Remove from end</button>             
+        </div>       
+        <script src="index.js"></script>
+    </body>
+</html>
